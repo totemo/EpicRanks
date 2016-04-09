@@ -1,0 +1,48 @@
+name: ${project.name}
+version: ${project.version}
+author: totemo
+authors: [totemo]
+description: ${project.description}
+website: ${project.url}
+main: io.totemo.epicranks.EpicRanks
+
+permissions:
+  epicranks.admin:
+    description: Permission to administer the plugin.
+    default: op
+
+  epicranks.promote:
+    description: Promote a player.
+    default: op
+
+  epicranks.vanished:
+    description: Rank display and particle effects are hidden from view.
+    default: false
+
+commands:
+  epicranks:
+    description: ${project.name} administrative command.
+    permission: epicranks.admin
+    usage: |
+      /<command> reload: Reload the configuration.
+
+  rankup:
+    description: Increase a player's rank.
+    permission: epicranks.promote
+    usage: |
+      /<command> <player>: Increase a player's rank.
+
+  donate:
+    description: Donate, for epic perks!!!
+    usage: |
+      /<command>: Donate, for epic perks!!!
+
+  flair:
+    description: Change your flair.
+    usage: |
+      /<command>: Change flair.
+
+  mount:
+    description: Summon your epic mount.
+    usage: |
+      /<command>: Summon your epic mount.

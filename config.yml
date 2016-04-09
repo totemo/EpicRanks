@@ -1,0 +1,75 @@
+chance:
+  promotion: 0.5
+
+rate:
+  broadcast:
+    diamond: 30000
+    rank: 30000
+
+ranks:
+  order:
+  - scrub
+  - member
+  - supporter
+  - lapis
+  - gold
+  - emerald
+  - diamond
+  - platinum
+  - nephew
+
+  info:
+    scrub:
+      prefix: "{&4DIRT&f} "
+      suffix: " <&8Scrub&f>"
+      capabilities:
+        flair: false
+        mount: false
+    member:
+      prefix: "&f{&aGRASS&f} "
+      suffix: " <Member>"
+      capabilities:
+        flair: false
+        mount: false
+    supporter:
+      prefix: "{&cREDSTONE&f} "
+      suffix: " <&4Supporter&f>"
+      capabilities:
+        flair: false
+        mount: false
+    lapis:
+      prefix: "{&9LAPIS&f}&9 "
+      suffix: " &f<&9VIP&f>"
+      capabilities:
+        flair: true
+        mount: true
+    gold:
+      prefix: "&e{&6GOLD&e} "
+      suffix: " &f<&6VIP+&f>"
+      capabilities:
+        flair: true
+        mount: false
+    emerald:
+      prefix: "&a{&2EMERALD&a} "
+      suffix: " &f<&2VIP++&f>"
+      capabilities:
+        flair: true
+        mount: true
+    diamond:
+      prefix: "&3{&bDIAMOND&3} "
+      suffix: " &b<Mega VIP>"
+      capabilities:
+        flair: true
+        mount: true
+    platinum:
+      prefix: "&7{PLATINUM} "
+      suffix: " &b<Ultra VIP>"
+      capabilities:
+        flair: true
+        mount: true
+    nephew:
+      prefix: "&8{OBSIDIAN} "
+      suffix: " Owner's Nephew"
+      capabilities:
+        flair: true
+        mount: true
